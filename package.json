@@ -1,7 +1,7 @@
 {
-  "name": "stack-analyze",
+  "name": "s",
   "version": "1.0.11",
-  "description": "",
+  "description": "![logo](image/logo.png)",
   "main": "index.js",
   "bin": {
     "stack-dramalandia": "index.js"
@@ -21,5 +21,14 @@
     "lyrics-finder": "^21.7.0",
     "timeago.js": "^4.0.2",
     "wappalyzer": "^6.10.26"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stack-analyze/stack-analyze-dramalandia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stack-analyze/stack-analyze-dramalandia/issues"
+  },
+  "homepage": "https://github.com/stack-analyze/stack-analyze-dramalandia#readme"
 }
