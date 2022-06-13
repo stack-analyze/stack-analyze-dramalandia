@@ -1,0 +1,1 @@
+module.exports = new Intl.ListFormat('en', { style: 'short', type: 'conjunction' })
