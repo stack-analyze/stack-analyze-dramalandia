@@ -1,6 +1,6 @@
 {
   "name": "s",
-  "version": "1.0.110",
+  "version": "1.0.10",
   "description": "![logo](image/logo.png)",
   "main": "index.js",
   "bin": {
