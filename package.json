@@ -1,6 +1,6 @@
 {
-  "name": "s",
-  "version": "1.0.10",
+  "name": "stack-analyze",
+  "version": "1.0.11",
   "description": "![logo](image/logo.png)",
   "main": "index.js",
   "bin": {
