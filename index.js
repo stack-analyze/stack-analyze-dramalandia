@@ -6,7 +6,6 @@ const inquirer = require('inquirer')
 const { textSync } = require('figlet')
 const { red, brightMagenta } = require('colors')
 const { printTable } = require('console-table-printer')
-const imgToAscii = require('ascii-img-canvas-nodejs')
 
 // about
 const aboutApp = require('./about')
@@ -15,6 +14,8 @@ const aboutApp = require('./about')
 const TechStack = require("./functions/techStack")
 const animeSearch = require("./functions/animeInfo")
 const pokemonInfo = require('./functions/pokemonInfo')
+
+const image = require('./dramaqueen')
 
 /**
  * 
@@ -95,13 +96,7 @@ const toolsOpts = {
       }
     });
   },
-  async drama_queen() {
-    const opts = {
-      width: 60
-    }
-    
-    const image = await imgToAscii('image/queen.jpg', opts)
-    
+  drama_queen() {
     console.clear()
     console.info('danny la reina de drama')
     console.info(image)

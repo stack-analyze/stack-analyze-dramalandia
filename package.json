@@ -1,7 +1,7 @@
 {
   "name": "stack-analyze",
-  "version": "1.0.11",
-  "description": "![logo](image/logo.png)",
+  "version": "1.0.110",
+  "description": "edicion de stack-analyze para la comunidad de dannyaegyo",
   "main": "index.js",
   "bin": {
     "stack-dramalandia": "index.js"
@@ -12,7 +12,6 @@
   "author": "omega5300",
   "license": "MIT",
   "dependencies": {
-    "ascii-img-canvas-nodejs": "^1.8.1",
     "axios": "^0.27.2",
     "colors": "^1.4.0",
     "console-table-printer": "^2.11.0",
@@ -22,7 +21,6 @@
     "timeago.js": "^4.0.2",
     "wappalyzer": "^6.10.26"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stack-analyze/stack-analyze-dramalandia.git"
